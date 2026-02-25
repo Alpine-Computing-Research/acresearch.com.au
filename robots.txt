@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acresearch.com.au/sitemap.xml
