@@ -41,11 +41,36 @@
             border: 1px solid black;
             padding: 1.5rem;
         }
+        .header-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .contact-button {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #000;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        .contact-button:hover {
+            background-color: #fff;
+            color: #000;
+        }
     </style>
 </head>
 <body>
     <main>
-        <h1>Alpine Computing Research <img src="logo.png" alt="Alpine Computing Research Logo" width="400" height="400" style="height: 1em; width: auto; vertical-align: middle; margin-left: 0.3em;"></h1>
+        <div class="header-row">
+            <h1>Alpine Computing Research <img src="logo.png" alt="Alpine Computing Research Logo" width="400" height="400" style="height: 1em; width: auto; vertical-align: middle; margin-left: 0.3em;"></h1>
+            <a href="mailto:hello@acresearch.com.au" class="contact-button">Contact Us</a>
+        </div>
         <p>Alpine Computing Research provides bespoke software development and cybersecurity services to the cryptocurrency and commercial real estate industries.</p>
 
         <div class="columns">
