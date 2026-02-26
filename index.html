@@ -63,6 +63,34 @@
             background-color: #fff;
             color: #000;
         }
+        footer {
+            margin-top: 4rem;
+            padding: 2rem 0;
+            border-top: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        footer a {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 0.5rem;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer a:first-child {
+            margin-left: 0;
+        }
+        .footer-links {
+            margin: 0;
+        }
+        .footer-copyright {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -103,5 +131,11 @@
             </div>
         </div>
     </main>
+    <footer>
+        <p class="footer-links">
+            <a href="https://github.com/Alpine-Computing-Research" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+        <p class="footer-copyright">Copyright &copy; Alpine Computing Research 2026. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
